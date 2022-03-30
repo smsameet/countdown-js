@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+}
+button {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 15px;
+  border: none;
+}
+#Starting {
+  background-color: green;
+  color: white;
+}
+#Pousing {
+  background-color: red;
+  color: white;
+}
+#Restarting {
+  background-color: brown;
+  color: white;
+}
+#Starting:disabled {
+  background-color: gray;
+  color: black;
+}
+#Pousing:disabled {
+  background-color: gray;
+  color: black;
+}
+#Restarting:disabled {
+  background-color: gray;
+  color: black;
+}
